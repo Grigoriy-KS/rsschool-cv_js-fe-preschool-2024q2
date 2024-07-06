@@ -79,6 +79,11 @@ body {
     border-bottom: 15px solid #d7d1c9;
 }
 
+.quote {
+    padding-left: 50px;
+    border-left: 4px solid #e2e2e2;    
+}
+
 @media (max-width: 768px) {
     .section {
         /* Блочная модель */
