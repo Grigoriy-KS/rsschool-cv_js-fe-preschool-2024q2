@@ -112,6 +112,24 @@ body {
     word-spacing: 3px;
 }
 
+.section-profile-logo {
+    /* Блочная модель */
+    width: 200px;
+    height: 200px;
+    
+    /* Оформление */
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    filter: grayscale(0.2) brightness(1.05);
+
+    /* Анимация */
+    transition: 0.3s;
+}
+
+.section-profile-logo:hover {
+    filter: none;
+}
+
 .pre {
     /* Блочная модель */
     padding: 0;
