@@ -148,7 +148,10 @@ body {
     padding: 0;
     padding-left: 30px;
 }
- 
+
+.section-item span {
+    color: #829985;
+}
 
 .pre {
     /* Блочная модель */
