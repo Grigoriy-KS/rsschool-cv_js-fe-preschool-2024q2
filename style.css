@@ -19,10 +19,10 @@ body {
     
     /* Типографика */
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: #400000;
 
     /* Оформление */
     border: 1px solid rgb(255, 255, 255);
@@ -36,7 +36,8 @@ body {
 
 .header {
     /* Оформление */
-    background-color: #829985;
+    background-color: #408080;
+    border-radius: 30px 30px 0 0;
 }
 
 .nav-list {
@@ -56,12 +57,17 @@ body {
     /* Типографика */
     line-height: 50px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 50px;
-    color: #fff;
+    color: #ffffff;
 
     /* Оформление */
     text-decoration: none;
+}
+
+.main {
+    /* Оформление */
+    background-color: #ffffff;
 }
 
 .main-container {
@@ -77,16 +83,16 @@ body {
     padding-bottom: 35px;
 
     /* Оформление */
-    border-bottom: 1px solid #672f2f;
+    border-bottom: 1px solid #400000;
 }
 
 .section-title {
     /* Типографика */
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: #408080;
 }
 
 .section-profile {
@@ -97,19 +103,23 @@ body {
     padding: 50px 30px 35px;
 
     /* Оформление */
-    border-bottom: 15px solid #d7d1c9;
+    border-bottom: 10px solid #408080;
 }
 
 .main-title {
-    position: relative;
+    /* Блочная модель */
     padding: 0;
     margin-bottom: 20px;
-    color: #4d2323;
-    font-size: 32px;
-    font-weight: 300;
+
+    /* Типографика */    
+    font-size: 48px;
+    font-weight: 400;
     letter-spacing: 10px;
-    line-height: 50px;
+    line-height: 90px;
     word-spacing: 3px;
+
+    /* Оформление */
+    color: #400000;
 }
 
 .section-profile-logo {
@@ -119,8 +129,8 @@ body {
     
     /* Оформление */
     border-radius: 50%;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    filter: grayscale(0.2) brightness(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    filter: grayscale(0.3) brightness(1.05);
 
     /* Анимация */
     transition: 0.3s;
@@ -142,7 +152,6 @@ body {
 
 .section-item {
     /* Блочная модель */
-    position: relative;
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
@@ -151,19 +160,19 @@ body {
 
 .section-item span {
     /* Оформление */
-    color: #829985;
+    color: #408080;
 }
 
 .section-item a {
     /* Оформление */
     text-decoration: none;
-    color: #829985;
+    color: #408080;
     transition: color 0.5s;
 }
 
 .section-item a:hover {
     /* Оформление */
-    color: #4d2323;
+    color: #400000;
   }
 
 .pre {
@@ -185,7 +194,8 @@ body {
     padding: 20px;
 
     /* Оформление */
-    background-color: #829985;
+    background-color: #408080;
+    border-radius: 0px 0px 30px 30px ;
 }
 
 .footer-container {
