@@ -72,6 +72,11 @@ body {
 .section {
     /* Блочная модель */
     width: 50%;
+    padding: 10px;
+    padding-bottom: 35px;
+
+    /* Оформление */
+    border-bottom: 1px solid #672f2f;
 }
 
 .section-title {
