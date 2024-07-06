@@ -161,6 +161,11 @@ body {
     transition: color 0.5s;
 }
 
+.section-item a:hover {
+    /* Оформление */
+    color: #4d2323;
+  }
+
 .pre {
     /* Блочная модель */
     padding: 0;
