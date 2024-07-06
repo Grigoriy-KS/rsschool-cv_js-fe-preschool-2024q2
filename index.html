@@ -70,12 +70,12 @@
                     <li class="section-item">Adobe Photoshop</li>
                 </ul>
             </section>            
-            <!-- <section class="section" id="courses">
+            <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
                 <ul class="section-list">
-                    <li class="section-item"></li>
+                    <li class="section-item"><a href="https://stepik.org/cert/2456175">Stepik - Immersion in JavaScript (for beginners)</a></li>
                 </ul>
-            </section> -->
+            </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <ul class="section-list">
@@ -99,7 +99,7 @@
                 <h2 class="section-title">Code</h2>
                 <pre class="pre">
                     <code>
-let targetNumber = Number(prompt("Enter a number to calculate factorial:"));
+<!-- let targetNumber = Number(prompt("Enter a number to calculate factorial:"));
 let currentNumber = 0;
 let factorial;
 if (targetNumber >= 0 && (targetNumber % 1 === 0)){
@@ -111,7 +111,27 @@ if (targetNumber >= 0 && (targetNumber % 1 === 0)){
 console.log("The factorial of " + targetNumber + " is " + factorial);
 } else {
     console.log ("Incorrect data entry.");
-}
+} -->
+const N = Number(prompt("Enter an integer number:"));
+let counter;
+let result=1;
+if (N % 1 === 0) {
+    counter = N;
+    if (N > 0) {
+    while (counter > 0) {
+        result *= 2;
+        counter--;
+        }
+    } else if (N < 0) {
+        while (counter < 0) {
+        result /= 2;
+        counter++;
+        }
+    }
+  console.log(result);
+} else {
+    console.log("Incorrect data entry.");
+}    
                     </code>
                 </pre>
             </section>
