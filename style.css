@@ -88,6 +88,11 @@ body {
     border-left: 4px solid #e2e2e2;    
 }
 
+.footer {
+    background-color: #829985;
+    padding: 20px;  
+}
+
 @media (max-width: 768px) {
     .section {
         /* Блочная модель */
