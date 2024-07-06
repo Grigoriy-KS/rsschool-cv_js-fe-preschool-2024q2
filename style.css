@@ -150,10 +150,12 @@ body {
 }
 
 .section-item span {
+    /* Оформление */
     color: #829985;
 }
 
 .section-item a {
+    /* Оформление */
     text-decoration: none;
     color: #829985;
     transition: color 0.5s;
