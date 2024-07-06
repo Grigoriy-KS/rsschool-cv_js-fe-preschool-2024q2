@@ -23,7 +23,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #4d2323;
-    
+
     /* Оформление */
     border: 1px solid red;
 }
@@ -61,6 +61,14 @@ body {
 .section {
     /* Блочная модель */
     width: 50%;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
 }
 
 @media (max-width: 768px) {
