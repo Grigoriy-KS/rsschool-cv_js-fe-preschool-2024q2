@@ -153,6 +153,12 @@ body {
     color: #829985;
 }
 
+.section-item a {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
 .pre {
     /* Блочная модель */
     padding: 0;
