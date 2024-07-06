@@ -24,9 +24,9 @@
                     <li class="nav-item">
                         <a href="#skills" class="nav-link">Skills</a>
                     </li>          
-                    <li class="nav-item">
-                        <a href="#code" class="nav-link">Code</a>
-                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#courses" class="nav-link">Сourses</a>
+                    </li>  -->
                     <li class="nav-item">
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
@@ -35,6 +35,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
                     </li>
                 </ul>
               </nav>
@@ -66,16 +69,13 @@
                     <li class="section-item">VSCode</li>
                     <li class="section-item">Adobe Photoshop</li>
                 </ul>
-            </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-            </section>
-            <section class="section" id="courses">
+            </section>            
+            <!-- <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
                 <ul class="section-list">
                     <li class="section-item"></li>
                 </ul>
-            </section>
+            </section> -->
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <ul class="section-list">
@@ -94,6 +94,26 @@
                     <li class="section-item">Russian - native speaker</li>
                     <li class="section-item">English - A1 (A2 in process…)</li>
                 </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+let targetNumber = Number(prompt("Enter a number to calculate factorial:"));
+let currentNumber = 0;
+let factorial;
+if (targetNumber >= 0 && (targetNumber % 1 === 0)){
+    factorial = ++ currentNumber;
+    while (currentNumber <= targetNumber) {
+        factorial *= currentNumber;
+        currentNumber++;
+    }
+console.log("The factorial of " + targetNumber + " is " + factorial);
+} else {
+    console.log ("Incorrect data entry.");
+}
+                    </code>
+                </pre>
             </section>
         </div>
     </main>
