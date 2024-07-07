@@ -67,7 +67,7 @@ body {
 
 .main {
     /* Оформление */
-    background-color: #ffffff;
+    background-color: #f6ffd7;
 }
 
 .main-container {
@@ -186,7 +186,7 @@ body {
     padding-left: 50px;
 
     /* Оформление */
-    border-left: 4px solid #e2e2e2;    
+    border-left: 4px solid #408080;    
 }
 
 .footer {
