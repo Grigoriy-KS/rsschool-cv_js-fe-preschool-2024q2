@@ -209,6 +209,12 @@ body {
     color: #fff;
 }
 
+.rss {
+    /* Блочная модель */
+    width: 121px;
+    height: 45px;
+}
+
 @media (max-width: 768px) {
     .section {
         /* Блочная модель */
